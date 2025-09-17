@@ -3,7 +3,7 @@ import struct
 import time
 from datetime import datetime
 
-TARGET_IP = "192.168.180.55"
+TARGET_IP = "192.168.1.1" #IP Master
 PORT = 502
 
 power_meter_map = {
