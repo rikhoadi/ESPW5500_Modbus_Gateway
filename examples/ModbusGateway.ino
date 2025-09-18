@@ -4,8 +4,8 @@
 
 // ===== Konfigurasi Ethernet =====
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip_lan(192, 168, 180, 55);
-IPAddress gateway_lan(192, 168, 180, 1);
+IPAddress ip_lan(192, 168, 1, 10);
+IPAddress gateway_lan(192, 168, 1, 1);
 IPAddress subnet_lan(255, 255, 255, 0);
 
 // ===== RS-485 / Modbus RTU =====
